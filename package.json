@@ -3,7 +3,8 @@
   "name": "tailwindmate",
   "title": "Tailwindmate",
   "description": "Takes any HEX color (or shorthand like #f00) and instantly returns the closest Tailwind CSS color token (for example red‑500).",
-  "icon": "extension-icon.png",
+  "icon": "extension_icon.png",
+  "categories": ["Developer Tools", "Productivity"],
   "author": "pere",
   "license": "MIT",
   "commands": [

@@ -1,11 +1,4 @@
-import {
-  Action,
-  ActionPanel,
-  Icon,
-  List,
-  Toast,
-  showToast,
-} from "@raycast/api";
+import { Action, ActionPanel, Icon, List, Toast, showToast } from "@raycast/api";
 import chroma from "chroma-js";
 import { palette } from "./tailwind-palette";
 
@@ -35,7 +28,7 @@ export default function Command({ arguments: { hex } }: Readonly<{ arguments: Ar
           detail={
             <List.Item.Detail
               markdown={`## ${token}\n\n![colour](https://singlecolorimage.com/get/${swatchHex.substring(
-                1
+                1,
               )}/150x60)\n\n**Input**\n\`${input}\`\n\n**Closest Tailwind**\n\`${token}\``}
             />
           }
